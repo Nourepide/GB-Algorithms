@@ -37,7 +37,7 @@ public class Main {
                 .fill(array)                // [1, 3, 4, 9]
                 .add(2)                     // [1, 3, 4, 9, 2]
                 .delete(3)                  // [1, 3, 9, 2]
-                .change(3, 5)    // [1, 3, 5, 2] == [9 -> 5]
+                .change(3, 5)               // [1, 3, 5, 2] == [9 -> 5]
                 .addSort(4)                 // [1, 3, 4, 5, 2]
                 .sortInsert()               // [1, 2, 3, 4, 5]
                 .getArray();                // Input
